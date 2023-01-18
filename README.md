@@ -104,7 +104,7 @@ Pandas.Dataframes are very powerul data structures. Click [here](https://pandas.
 [Robert H Crawford](https://github.com/rhcr) - _brainstorming and project leader of the original EPiC Database_ - [ORCID](https://orcid.org/0000-0002-0189-3221)
 
 ## License
-This project is shared under a GNU General Public License v3.0. See the [LICENSE.md](../blob/master/LICENSE) file for more information.
+This project is shared under a GNU General Public License v3.0. See the [LICENSE](https://github.com/hybridlca/epicdb/blob/main/LICENSE) file for more information.
 
 ## Acknowledgments
 
