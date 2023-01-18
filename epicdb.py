@@ -74,7 +74,6 @@ def to_csv(path: str, compact=False):
     Exports the EPiC database to the csv format
     :param path: the path of the file to use
     :param compact: a Boolean flag that specifies if the Database should be streamlined by removing certain columns
-    :return:
     """
     if not path.endswith('.csv'):
         print('The file path you specified does not end with "csv", we have added the extension for you')
@@ -87,4 +86,4 @@ def to_csv(path: str, compact=False):
     else:
         get_all_db(compact=True).to_csv(path)
         addendum = 'in a compact format.'
-    print('Succesfully exported the EPiC database to the path', path, addendum)
+    print('Successfully exported the EPiC database to the path', path, addendum)
