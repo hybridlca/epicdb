@@ -1,4 +1,4 @@
-![epicdb banner](https://github.com/hybridlca/epicdb/blob/main/epicdb_banner.png)
+<img src="https://github.com/hybridlca/epicdb/blob/main/epicdb_banner.png" alt="drawing" width="546"/>
 
 # epicdb
 
