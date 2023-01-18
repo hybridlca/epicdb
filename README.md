@@ -92,20 +92,20 @@ Pandas.Dataframes are very powerul data structures. Click [here](https://pandas.
 
 ## Built with:
 
-+[pycharm](https://www.jetbrains.com/pycharm/)
-+Belgian beers and coffee from High Five in Louvain-la-Neuve, Belgium
++ [pycharm](https://www.jetbrains.com/pycharm/)
++ Belgian beers and coffee from High Five in Louvain-la-Neuve, Belgium
 
 ## Authors and contributors
 
 ### Author
-+[André Stephan](https://github.com/andrestephan1) - _overall design, implementation, testing and debugging_ - [ORCID](https://orcid.org/0000-0001-9538-3830)
+[André Stephan](https://github.com/andrestephan1) - _overall design, implementation, testing and debugging_ - [ORCID](https://orcid.org/0000-0001-9538-3830)
 
 ### Collaborator
-+[Robert H Crawford](https://github.com/rhcr) - _brainstorming and project leader of the original EPiC Database_ - [ORCID](https://orcid.org/0000-0002-0189-3221)
+[Robert H Crawford](https://github.com/rhcr) - _brainstorming and project leader of the original EPiC Database_ - [ORCID](https://orcid.org/0000-0002-0189-3221)
 
 ## License
 This project is shared under a GNU General Public License v3.0. See the [LICENSE.md](../blob/master/LICENSE) file for more information.
 
 ## Acknowledgments
 
-This python package was funded by the __Belgian Fund for Scientific Research (F.R.S. - FNRS) MIS project F.4547.21, titled [Nested Phoenix](www.nestedphoenix.com)__ at the [Université Catholique de Louvain](https://uclouvain.be/), Belgium. As such, we are endebted to Belgian taxpayers for making this work possible and to the Université Catholique de Louvain for providing the facilities and intellectual space to conduct this research.
+This python package was funded by the __Belgian Fund for Scientific Research (F.R.S. - FNRS) MIS project F.4547.21, titled [Nested Phoenix](http://nestedphoenix.com)__ at the [Université Catholique de Louvain](https://uclouvain.be/), Belgium. As such, we are endebted to Belgian taxpayers for making this work possible and to the Université Catholique de Louvain for providing the facilities and intellectual space to conduct this research.
