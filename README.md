@@ -98,14 +98,16 @@ Pandas.Dataframes are very powerul data structures. Click [here](https://pandas.
 ## Authors and contributors
 
 ### Author
-[André Stephan](https://github.com/andrestephan1) - _overall design, implementation, testing and debugging_ - [ORCID](https://orcid.org/0000-0001-9538-3830)
++ [André Stephan](https://github.com/andrestephan1) - _overall design, implementation, testing and debugging_ - [ORCID](https://orcid.org/0000-0001-9538-3830)
 
-### Collaborator
-[Robert H Crawford](https://github.com/rhcr) - _brainstorming and project leader of the original EPiC Database_ - [ORCID](https://orcid.org/0000-0002-0189-3221)
+### Collaborators
++ [Robert H Crawford](https://github.com/rhcr) - _brainstorming and project leader of the original EPiC Database_ - [ORCID](https://orcid.org/0000-0002-0189-3221)
++ [Fabian Prideaux](https://github.com/fabianpx) - _Tidying up the excel version of the EPiC database and creating the uuids of the materials_ - [ORCID](https://orcid.org/0000-0002-4959-3615)
 
 ## License
-This project is shared under a GNU General Public License v3.0. See the [LICENSE](https://github.com/hybridlca/epicdb/blob/main/LICENSE) file for more information.
+This project is shared under a GNU General Public License v3.0. See the [LICENSE.md](../blob/master/LICENSE) file for more information.
 
 ## Acknowledgments
 
-This python package was funded by the __Belgian Fund for Scientific Research (F.R.S. - FNRS) MIS project F.4547.21, titled [Nested Phoenix](http://nestedphoenix.com)__ at the [Université Catholique de Louvain](https://uclouvain.be/), Belgium. As such, we are endebted to Belgian taxpayers for making this work possible and to the Université Catholique de Louvain for providing the facilities and intellectual space to conduct this research.
+This python package was funded by the __Belgian Fund for Scientific Research (F.R.S. - FNRS) MIS project F.4547.21, titled [Nested Phoenix](www.nestedphoenix.com)__ at the [Université Catholique de Louvain](https://uclouvain.be/), Belgium. As such, we are endebted to Belgian taxpayers for making this work possible and to the Université Catholique de Louvain for providing the facilities and intellectual space to conduct this research.
+
