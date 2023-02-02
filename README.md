@@ -109,5 +109,5 @@ This project is shared under a GNU General Public License v3.0. See the [LICENSE
 
 ## Acknowledgments
 
-This python package was funded by the __Belgian Fund for Scientific Research (F.R.S. - FNRS) MIS project F.4547.21, titled [Nested Phoenix](www.nestedphoenix.com)__ at the [Université Catholique de Louvain](https://uclouvain.be/), Belgium. As such, we are endebted to Belgian taxpayers for making this work possible and to the Université Catholique de Louvain for providing the facilities and intellectual space to conduct this research.
+This python package was funded by the __Belgian Fund for Scientific Research (F.R.S. - FNRS) MIS project F.4547.21, titled [Nested Phoenix](http://www.nestedphoenix.com)__ at the [Université Catholique de Louvain](https://uclouvain.be/), Belgium. As such, we are endebted to Belgian taxpayers for making this work possible and to the Université Catholique de Louvain for providing the facilities and intellectual space to conduct this research.
 
