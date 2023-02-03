@@ -2,11 +2,11 @@
 
 # epicdb
 
-epicdb is a __python__ package which enables you to extract data from the [Environmental Performance in Construction (EPiC) Database](http://epicdatabase.com.au). epicdb uses Pandas and treats the EPiC Database as Pandas.DataFrame object. As such, all built-in methods of Pandas.DataFrames can be used. This means that data can be extracted by querying any attribute and can be exported in a single line to a variety of formats, including csv, xlsx, sql, json, feather, etc.
+epicdb is a __python__ package which enables you to extract data from the [Environmental Performance in Construction (EPiC) Database](http://epicdatabase.com.au). epicdb uses Pandas and treats the EPiC Database as a Pandas.DataFrame object. As such, all built-in methods of Pandas.DataFrames can be used. This means that data can be extracted by querying any attribute and can be exported in a single line to a variety of formats, including csv, xlsx, sql, json, feather, etc.
 
 The concept of epicdb is to provide developers with easy access to the EPiC Database as a python package, ensuring the consistency of results, and the access to the latest data by using the latest release.
 
-epicdb uses a static version of the EPiC Database, built-in within the package. We opted for that choice for simplicity and to avoid having to host the EPiC Database on a server and to access it through the API. Future versions of the EPiC Database will be packaged as new versions of the __python__ package. Migrating to a server-based data distrubution with a python package that fetches data from the cloud will be investigated for future versions, and based on user demand.
+epicdb uses a static version of the EPiC Database, built-in within the package. We opted for that choice for simplicity and to avoid having to host the EPiC Database on a server and to access it through the API. Future versions of the EPiC Database will be packaged as new versions of the __python__ package. Migrating to a server-based data distribution with a python package that fetches data from the cloud will be investigated for future versions, and based on user demand.
 
 ## Getting Started
 
