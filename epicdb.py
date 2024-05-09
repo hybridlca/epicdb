@@ -1,4 +1,5 @@
 import glob
+
 import pandas as pd
 
 """
@@ -12,8 +13,7 @@ different construction materials and elements, alongside metadata.
 """
 
 __author__ = 'André Stephan (ORCID: https://orcid.org/0000-0001-9538-3830)'
-__version__ = '1.0'
-
+__version__ = '1.3'
 
 for filepath in glob.glob('**/*.feather', recursive=True):
     if filepath.endswith('.feather'):
@@ -38,7 +38,7 @@ def get_fields() -> list:
     return list(__EPIC_DB.columns)
 
 
-def get(name:str=None, category:str=None, type:str=None) -> pd.DataFrame:
+def get(name: str = None, category: str = None, type: str = None) -> pd.DataFrame:
     """
     Extracts data from the EPiC database. Looks for records in name, category
     This function ignores the case of the query and of the records
@@ -47,7 +47,7 @@ def get(name:str=None, category:str=None, type:str=None) -> pd.DataFrame:
     :return: a pandas DataFrame
     """
     result = __EPIC_DB.copy(deep=True)
-    for col, arg in zip(['name', 'category', 'type'],[name, category, type]):
+    for col, arg in zip(['name', 'category', 'type'], [name, category, type]):
         if arg:
             if isinstance(arg, str):
                 result = result.loc[result[col].str.lower().str.contains(arg.lower())]
