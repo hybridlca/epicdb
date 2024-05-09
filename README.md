@@ -1,12 +1,12 @@
-<img src="https://github.com/hybridlca/epicdb/blob/main/epicdb_banner.png" alt="drawing" width="546"/>
+<img src="https://raw.githubusercontent.com/hybridlca/epicdb/main/epicdb_banner.png" alt="drawing" width="546"/>
 
 # epicdb
 
-epicdb is a __python__ package which enables you to extract data from the [Environmental Performance in Construction (EPiC) Database](http://epicdatabase.com.au). epicdb uses Pandas and treats the EPiC Database as a Pandas.DataFrame object. As such, all built-in methods of Pandas.DataFrames can be used. This means that data can be extracted by querying any attribute and can be exported in a single line to a variety of formats, including csv, xlsx, sql, json, feather, etc.
+epicdb is a __python__ package which enables you to extract data from the [Environmental Performance in Construction (EPiC) Database](http://epicdatabase.com.au). epicdb uses Pandas and treats the EPiC Database as Pandas.DataFrame object. As such, all built-in methods of Pandas.DataFrames can be used. This means that data can be extracted by querying any attribute and can be exported in a single line to a variety of formats, including csv, xlsx, sql, json, feather, etc.
 
 The concept of epicdb is to provide developers with easy access to the EPiC Database as a python package, ensuring the consistency of results, and the access to the latest data by using the latest release.
 
-epicdb uses a static version of the EPiC Database, built-in within the package. We opted for that choice for simplicity and to avoid having to host the EPiC Database on a server and to access it through the API. Future versions of the EPiC Database will be packaged as new versions of the __python__ package. Migrating to a server-based data distribution with a python package that fetches data from the cloud will be investigated for future versions, and based on user demand.
+epicdb uses a static version of the EPiC Database, built-in within the package. We opted for that choice for simplicity and to avoid having to host the EPiC Database on a server and to access it through the API. Future versions of the EPiC Database will be packaged as new versions of the __python__ package. Migrating to a server-based data distrubution with a python package that fetches data from the cloud will be investigated for future versions, and based on user demand.
 
 ## Getting Started
 
@@ -27,13 +27,13 @@ The EPiC Database in the epicdb package comes with 14 fields. These are describe
 2. name: the material name, as reported in the EPiC Database. Note: minor differences might occur.
 3. category: the material category, as reported in the EPiC Database, e.g. Metals.
 4. type: the material type, as reported in the EPiC Database, e.g. Stainless Steel.
-5. functional_unit: the functional unit of the material, i.e. kg, m², m³, no., or m.
+5. functional_unit: the functional unit of the material, i.e. kg, m<sup>2</sup>, m<sup>3</sup>, no., or m.
 6. energy: the hybrid embodied energy coefficient of the material, in MJ
 7. water: the hybrid embodied water coefficient of the material, in kL
 8. ghg: the hybrid embodied greenhouse gas emissions coefficient of the material, in kgCO<sub>2</sub>e
 9. doi: the digital object identifier of the material, linking to its fact sheet and metadata file on figshare
-10. density: the density of the material, in kg/m³
-11. specific_hear: the specific heat of the material, in kJ/(kg·K)
+10. density: the density of the material, in kg/m<sup>3</sup>
+11. specific_hear: the specific heat of the material, in kJ/(kg&middot;K)
 12. process_proportion_energy: the percentage of process data representing the hybrid embodied energy coefficient of the material, as fraction of 1
 13. process_proportion_water: the percentage of process data representing the hybrid embodied water coefficient of the material, as fraction of 1
 14. process_proportion_ghg: the percentage of process data representing the hybrid embodied greenhouse gas emissions coefficient of the material, as fraction of 1
@@ -93,7 +93,10 @@ Pandas.Dataframes are very powerul data structures. Click [here](https://pandas.
 ## Built with:
 
 + [pycharm](https://www.jetbrains.com/pycharm/)
-+ Belgian beers and coffee from High Five in Louvain-la-Neuve, Belgium
++ Belgian beers
++ Coffee from High Five in Louvain-la-Neuve, Belgium
++ Coffee from Castro's at The University of Melbourne, Australia
+
 
 ## Authors and contributors
 
@@ -110,4 +113,10 @@ This project is shared under a GNU General Public License v3.0. See the [LICENSE
 ## Acknowledgments
 
 This python package was funded by the __Belgian Fund for Scientific Research (F.R.S. - FNRS) MIS project F.4547.21, titled [Nested Phoenix](http://www.nestedphoenix.com)__ at the [Université Catholique de Louvain](https://uclouvain.be/), Belgium. As such, we are endebted to Belgian taxpayers for making this work possible and to the Université Catholique de Louvain for providing the facilities and intellectual space to conduct this research.
+
+
+
+
+
+
 
